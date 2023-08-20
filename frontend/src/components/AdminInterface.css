@@ -1,0 +1,94 @@
+/* AdminInterface Styles */
+.admin-dashboard {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .add-user-form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .add-user-form input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-user-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-user-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .user-table td input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .edit-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .edit-buttons button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-buttons button.edit-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .edit-buttons button.deactivate-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .edit-buttons button.save-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .edit-buttons button:hover {
+    opacity: 0.8;
+  }
+  
